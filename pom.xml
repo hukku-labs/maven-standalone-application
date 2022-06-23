@@ -10,6 +10,10 @@
 	<name>maven-stanalone-application</name>
 	<url>http://mithuntechnologies.com</url>
 
+<properties> 
+   <maven.compiler.source>1.8</maven.compiler.source>
+   <maven.compiler.target>1.8</maven.compiler.target>
+</properties>
 	<organization>
 		<name>Mithun Technologies</name>
 		<url>http://mithuntechnologies.com/</url>
@@ -17,12 +21,6 @@
 	
 	<description>Maven Standalone Application</description>
 
-	<properties>
-		<sonar.host.url>http://35.154.242.68:9000/</sonar.host.url>
-		<sonar.login>admin</sonar.login>
-		<sonar.password>admin</sonar.password>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
 
 	<dependencies>
 
